@@ -1,0 +1,20 @@
+
+<resources>
+    <string name="app_name">Caption Maker</string>
+    <string name="label1">Take a Photo</string>
+    <string name="label2">Browse a Photo</string>
+    <string name="howToUse">How to Use</string>
+    <string name="faq">FAQs</string>
+    <string name="sliding">Swipe for more</string>
+
+    <string name="facebook_app_id">953438284828943</string>
+
+    <string name="sharing_text">Your sharing text goes here…</string>
+    <string name="share_title">Share Screenshot</string>
+
+
+
+</resources>
+
+
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundcolor">#4f5d75</color>
+    <color name="lightgray">#ededed</color>
+    <color name="yellow">#ffb300</color>
+    <color name="green">#70c1b3</color>
+    <color name="colorAccent">#bfc0c0</color>
+    <color name="darkgreen">#247ba0</color>
+    <color name="lightorange">#fdf2df</color>
+    <color name="buttontakephoto">#f1faee</color>
+
+
+</resources>

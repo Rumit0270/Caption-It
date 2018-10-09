@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/rootcontentTakePhoto"
+    android:background="@drawable/image_border"
+    tools:context="com.example.captionit.TakePhoto">
+
+
+    <ImageView
+        android:id="@+id/imageView_cameraImage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:background="@drawable/image_border"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:background="#364046">
+
+        <TextView
+            android:id="@+id/textView_cameraResult"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:layout_weight="9"
+            android:text=""
+            android:layout_marginBottom="1dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:paddingTop="15dp" />
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:src="@drawable/speakcaption"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="1dp"
+                android:onClick="speakAgain"/>
+
+
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:src="@drawable/shareimage"
+                android:onClick="shareImage"
+                android:id="@+id/shareButton"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_takePhotoAgain"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="1"
+        android:background="@drawable/buttonshape"
+        android:fadingEdge="none|horizontal"
+        android:onClick="takePhotoAgain"
+        android:text="TAKE ANOTHER PHOTO"
+        android:textColor="@color/buttontakephoto"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:textAppearance="@android:style/MediaButton.Play"
+        tools:theme="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle" />
+
+
+
+
+
+
+</LinearLayout>
